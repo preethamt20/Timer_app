@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <div class="timer">
+            <span id="timer-display">00:00:00</span>
+        </div>
+        <div class="controls">
+            <button id="start-btn">Start</button>
+            <button id="pause-btn">Pause</button>
+            <button id="reset-btn">Reset</button>
+            <button id="stop-btn">Stop</button>
+        </div>
+        <div class="modes">
+            <button id="pomodoro-btn">Pomodoro (25 min)</button>
+            <button id="short-break-btn">Short Break (5 min)</button>
+            <button id="long-break-btn">Long Break (15 min)</button>
+        </div>
+        <audio id="alarm-sound" src="https://www.myinstants.com/media/sounds/alarm.mp3" preload="auto"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
